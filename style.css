@@ -1,0 +1,82 @@
+:root {
+  --background-color: #000000;
+  --primary: #f5f5f5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Vina Sans', cursive;
+}
+
+body {
+  background-color: #000000;
+  color: #02b1c8;
+  letter-spacing: 1px;
+}
+
+/* ----------------------- HEADER ------------------ */
+
+header {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > img {
+height: 100%;
+width: auto;
+padding-top: 0.5rem;
+}
+
+/* -------------- MAIN --------------- */
+
+main {
+  min-height: 60vh;
+  background-color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem 0;
+  gap: 1rem;
+}
+
+figure {
+  height: auto;
+  width: 250px;
+  text-align: center;
+}
+
+figure > h2{
+  border-bottom: 2px solid #02b1c8;
+  padding-bottom: 5px;
+}
+
+figure > img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  border: 4px solid #02b1c8;
+}
+
+button {
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  border: 2px solid #02b1c8;
+  background: transparent;
+  color: #02b1c8;
+  padding: 0.5rem 0.8rem;
+}
+
+/* ----------- FOOTER ----------- */
+
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
