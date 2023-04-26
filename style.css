@@ -19,16 +19,17 @@ body {
 /* ----------------------- HEADER ------------------ */
 
 header {
-  height: 30vh;
+  max-height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 header > img {
-height: 100%;
-width: auto;
-padding-top: 0.5rem;
+height: auto;
+width: 50%;
+padding-top: 2rem;
+object-fit: contain;
 }
 
 /* -------------- MAIN --------------- */
@@ -80,3 +81,12 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+/* ------------ MEDIA QUERIES ---------- */
+/* 
+@media screen and (max-width:
+900px){
+  header > img{
+    transform: scale();
+    }
+} */
