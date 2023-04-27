@@ -72,6 +72,7 @@ button {
   background: transparent;
   color: #02b1c8;
   padding: 0.5rem 0.8rem;
+  cursor: pointer;
 }
 
 /* ----------- FOOTER ----------- */
@@ -82,12 +83,3 @@ footer {
   justify-content: center;
   align-items: center;
 }
-
-/* ------------ MEDIA QUERIES ---------- */
-/* 
-@media screen and (max-width:
-900px){
-  header > img{
-    transform: scale();
-    }
-} */
